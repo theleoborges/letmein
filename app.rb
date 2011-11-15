@@ -10,7 +10,6 @@ configure :development do
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/letmein.db")
 end
 configure :production do
-  raise "Not implemented"
   DataMapper.setup(:default, ENV['SHARED_DATABASE_URL'])
 end
 DataMapper.finalize
