@@ -5,6 +5,8 @@ require 'data_mapper'
 require './user'
 
 
+enable :logging
+
 DataMapper::Logger.new($stdout, :debug)
 configure :development do
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/letmein.db")

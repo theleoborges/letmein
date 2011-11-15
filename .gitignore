@@ -1,3 +1,5 @@
+*.db
+
 # IntelliJ, RubyMine
 .idea/
 out/
