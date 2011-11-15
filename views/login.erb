@@ -1,0 +1,9 @@
+<form action="<%= url('/authenticate') %>" method="post">
+  <input type="hidden" name="api_key" value="<%= api_key %>">
+  <input type="hidden" name="return_to" value="<%= return_to %>">  
+  <label for="username">Username</label>
+  <input type="text" name="username">
+  <label for="password">Password</label>  
+  <input type="password" name="password">
+  <input type="submit" value="Login">
+</form>
