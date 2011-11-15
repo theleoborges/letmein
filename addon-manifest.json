@@ -4,7 +4,7 @@
     "config_vars": [ "LETMEIN_URL" ],
     "password": "pXrE4efbslOkCHtu",
     "sso_salt": "qi198QaiuPsE6DWq",
-    "production": "https://yourapp.com/",
+    "production": "https://letmein.herokuapp.com/",
     "test": "http://localhost:5000/"
   }
 }
